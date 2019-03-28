@@ -13,7 +13,7 @@ Simulate the performance of different modulation schemes in an AWGN environment:
     - [QAM16](#QAM16)
     - [QAM64](#QAM64)
 # Raised cosine
-For raised cosine modules, click here
+For raised cosine modules, click [here](https://github.com/AmmarRabie/dig-comm-proj/blob/master/Raised%20Cosine/README.md)
 
  # Common instructions:
  1. Open matlab
