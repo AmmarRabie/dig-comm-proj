@@ -23,29 +23,36 @@ Simulate the performance of different modulation schemes in an AWGN environment 
 
 
 # <a id="BPSK"></a>BPSK
-## Plot before noise
+## system design
+This is the simulink block system design
+![design](images/BPSK-design.JPG)
+## Constellation diagram before noise
 ![before](images/BPSK-before.jpg)
-## Plot after noise
+## Constellation diagram after noise
 ![after](images/BPSK-after.jpg)
 ## BER Curve
 ![curve](images/BPSK-curve.jpg)
 
 
 # <a id="QPSK"></a> QPSK
-
-## Plot before noise
+## system design
+This is the simulink block system design
+![design](images/QPSK-design.JPG)
+## Constellation diagram before noise
 ![before](images/QPSK-before.jpg)
-## Plot after noise
+## Constellation diagram after noise
 ![after](images/QPSK-after.jpg)
 ## BER Curve
 ![curve](images/QPSK-curve.jpg)
 
 
 ## <a id="FSK"></a> FSK
-
-## Plot before noise
+## system design
+This is the simulink block system design
+![design](images/FSK-design.JPG)
+## Constellation diagram before noise
 ![before](images/FSK-before.jpg)
-## Plot after noise
+## Constellation diagram after noise
 ![after](images/FSK-after.jpg)
 ## BER Curve
 ![curve](images/FSK-curve.jpg)
@@ -53,18 +60,23 @@ Simulate the performance of different modulation schemes in an AWGN environment 
 
 
 ## <a id="QAM16"></a>QAM16
-
-## Plot before noise
+## system design
+This is the simulink block system design
+![design](images/QAM16-design.JPG)
+## Constellation diagram before noise
 ![before](images/QAM16-before.jpg)
-## Plot after noise
+## Constellation diagram after noise
 ![after](images/QAM16-after.jpg)
 ## BER Curve
 ![curve](images/QAM16-curve.jpg)
 
 
 ## <a id="QAM64"></a>QAM64
+## system design
+This is the simulink block system design
+![design](images/QAM64-design.JPG)
 ![before](images/QAM64-before.jpg)
-## Plot after noise
+## Constellation diagram after noise
 ![after](images/QAM64-after.jpg)
 ## BER Curve
 ![curve](images/QAM64-curve.jpg)

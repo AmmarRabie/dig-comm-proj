@@ -29,6 +29,9 @@ For raised cosine modules, click [here](https://github.com/AmmarRabie/dig-comm-p
     2. click browse and choose the file based on required modulation scheme (the file of slx extension)
     3. make variable name = [name of the file]
     4. click run button to get the simulated curve
+# Basic parameters design
+for any design the Numbers of bits per symbol in AWGN channel = log(n) where n is the number of size, e.g QUAM16: log2(16) = 4.
+All Parameters can be found in slx files.
 
 
 # <a id="BPSK"></a>BPSK
@@ -36,10 +39,12 @@ For raised cosine modules, click [here](https://github.com/AmmarRabie/dig-comm-p
 - Binary Phase Shift Keying is a two phase modulation scheme, where the 0’s and 1’s in a binary message are represented by two different phase states in the carrier signal.
 - BPSK is the most simple method to encode data in the phase as it uses two phases +180° and -180° to represent 0 or 1.
 - It handles the highest noise level or distortion before the demodulator reaches an incorrect decision. That makes it the most robust of all the PSKs. It is, however, only able to modulate at 1 bit/symbol and so is unsuitable for high data-rate applications.
-
-## Plot before noise
+## system design
+This is the simulink block system design
+![BPSK-design](images/BPSK-design.JPG)
+## Constellation diagram before noise
 ![before](images/BPSK-before.jpg)
-## Plot after noise
+## Constellation diagram after noise
 ![after](images/BPSK-after.jpg)
 ## BER Curve
 ![curve](images/BPSK-curve.jpg)
@@ -51,9 +56,12 @@ For raised cosine modules, click [here](https://github.com/AmmarRabie/dig-comm-p
 - This two-bits-per-symbol performance is possible because the carrier variations are not limited to two states. the carrier varies in terms of phase, not frequency, and there are four possible phase shifts.
 - We have 360° of phase to work with and four phase states, and thus the separation should be 360°/4 = 90°. So our four QPSK phase shifts are 0°, 90°, 180°, and 270°.
 - Compared to modulation schemes that transmit one bit per symbol, QPSK is advantageous in terms of bandwidth efficiency.
-## Plot before noise
+## system design
+This is the simulink block system design
+![QPSK-design](images/QPSK-design.JPG)
+## Constellation diagram before noise
 ![before](images/QPSK-before.jpg)
-## Plot after noise
+## Constellation diagram after noise
 ![after](images/QPSK-after.jpg)
 ## BER Curve
 ![curve](images/QPSK-curve.jpg)
@@ -63,10 +71,12 @@ For raised cosine modules, click [here](https://github.com/AmmarRabie/dig-comm-p
 ### Explanation: 
 - Frequency Shift Keying (FSK) is the digital modulation technique in which the frequency of the carrier signal varies according to the digital signal changes. FSK is a scheme of frequency modulation.
 - The output of a FSK modulated wave is high in frequency for a binary High input and is low in frequency for a binary Low input. The binary 1s and 0s are called Mark and Space frequencies.
-
-## Plot before noise
+## system design
+This is the simulink block system design
+![FSK-design](images/FSK-design.JPG)
+## Constellation diagram before noise
 ![before](images/FSK-before.jpg)
-## Plot after noise
+## Constellation diagram after noise
 ![after](images/FSK-after.jpg)
 ## BER Curve
 ![curve](images/FSK-curve.jpg)
@@ -81,10 +91,12 @@ For raised cosine modules, click [here](https://github.com/AmmarRabie/dig-comm-p
 
 - As the QAM order increases, so the distance between the different points on the constellation diagram decreases and there is a higher possibility of data errors being introduced. To utilise the high order QAM formats, the link must have a very good Eb/No otherwise data errors will be present.
 Accordingly there is a balance to be made between the data rate and QAM modulation order, power and the acceptable bit error rate.
-
-## Plot before noise
+## system design
+This is the simulink block system design
+![QAM16-design](images/QAM16-design.JPG)
+## Constellation diagram before noise
 ![before](images/QAM16-before.jpg)
-## Plot after noise
+## Constellation diagram after noise
 ![after](images/QAM16-after.jpg)
 ## BER Curve
 ![curve](images/QAM16-curve.jpg)
@@ -93,9 +105,12 @@ Accordingly there is a balance to be made between the data rate and QAM modulati
 ## <a id="QAM64"></a>QAM64
 ## Explanation
 mentioned in [QAM16 explanation](#QAM16_explanation)
-## Plot before noise
+## system design
+This is the simulink block system design
+![QAM64-design](images/QAM64-design.JPG)
+## Constellation diagram before noise
 ![before](images/QAM64-before.jpg)
-## Plot after noise
+## Constellation diagram after noise
 ![after](images/QAM64-after.jpg)
 ## BER Curve
 ![curve](images/QAM64-curve.jpg)
