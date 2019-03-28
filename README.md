@@ -7,11 +7,11 @@ Simulate the performance of different modulation schemes in an AWGN environment:
     - [QAM16](#QAM16)
     - [QAM64](#QAM64)
 - With raised cosine
-    - [BPSK](#BPSK)
-    - [QPSK](#QPSK)
-    - [FSK](#FSK)
-    - [QAM16](#QAM16)
-    - [QAM64](#QAM64)
+    - [BPSK](https://github.com/AmmarRabie/dig-comm-proj/blob/master/Raised%20Cosine/README.md#BPSK)
+    - [QPSK](https://github.com/AmmarRabie/dig-comm-proj/blob/master/Raised%20Cosine/README.md#QPSK)
+    - [FSK](https://github.com/AmmarRabie/dig-comm-proj/blob/master/Raised%20Cosine/README.md#FSK)
+    - [QAM16](https://github.com/AmmarRabie/dig-comm-proj/blob/master/Raised%20Cosine/README.md#QAM16)
+    - [QAM64](https://github.com/AmmarRabie/dig-comm-proj/blob/master/Raised%20Cosine/README.md#QAM64)
 # Raised cosine
 For raised cosine modules, click [here](https://github.com/AmmarRabie/dig-comm-proj/blob/master/Raised%20Cosine/README.md)
 
