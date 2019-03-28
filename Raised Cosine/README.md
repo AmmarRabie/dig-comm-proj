@@ -25,7 +25,7 @@ Simulate the performance of different modulation schemes in an AWGN environment 
 # <a id="BPSK"></a>BPSK
 ## system design
 This is the simulink block system design
-![design](images/BPSK-design.JPG)
+![design](images/BPSK-design.jpg)
 ## Constellation diagram before noise
 ![before](images/BPSK-before.jpg)
 ## Constellation diagram after noise
@@ -37,7 +37,7 @@ This is the simulink block system design
 # <a id="QPSK"></a> QPSK
 ## system design
 This is the simulink block system design
-![design](images/QPSK-design.JPG)
+![design](images/QPSK-design.jpg)
 ## Constellation diagram before noise
 ![before](images/QPSK-before.jpg)
 ## Constellation diagram after noise
@@ -49,7 +49,7 @@ This is the simulink block system design
 ## <a id="FSK"></a> FSK
 ## system design
 This is the simulink block system design
-![design](images/FSK-design.JPG)
+![design](images/FSK-design.jpg)
 ## Constellation diagram before noise
 ![before](images/FSK-before.jpg)
 ## Constellation diagram after noise
@@ -62,7 +62,7 @@ This is the simulink block system design
 ## <a id="QAM16"></a>QAM16
 ## system design
 This is the simulink block system design
-![design](images/QAM16-design.JPG)
+![design](images/QAM16-design.jpg)
 ## Constellation diagram before noise
 ![before](images/QAM16-before.jpg)
 ## Constellation diagram after noise
@@ -74,7 +74,7 @@ This is the simulink block system design
 ## <a id="QAM64"></a>QAM64
 ## system design
 This is the simulink block system design
-![design](images/QAM64-design.JPG)
+![design](images/QAM64-design.jpg)
 ![before](images/QAM64-before.jpg)
 ## Constellation diagram after noise
 ![after](images/QAM64-after.jpg)
